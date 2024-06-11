@@ -1,0 +1,21 @@
+$color: #0dd70d;
+$white: #ffffff;
+
+.home {
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+
+    @media (max-width: 376px) {
+      gap: 60px;
+    }
+  }
+
+  .container {
+    max-width: 1470px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+}
